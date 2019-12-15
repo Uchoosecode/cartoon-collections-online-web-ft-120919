@@ -15,11 +15,13 @@ def summon_captain_planet(rings)
   end
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calling)
+ calling.any? do |called|
+    called.length > 4
+  end
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(cheese_types)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese_types.include?
 end
